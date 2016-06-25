@@ -1,0 +1,22 @@
+{
+  "name": "op-printable-character-sheets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "0.20.0",
+    "es6-promisify": "4.1.0",
+    "fdf": "0.0.0",
+    "fill-pdf": "0.5.0",
+    "lodash": "4.13.1",
+    "node-obsidian": "0.3.1",
+    "request-promise": "3.0.0",
+    "why-is-node-running": "1.2.2"
+  }
+}
