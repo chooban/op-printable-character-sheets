@@ -1,9 +1,6 @@
 {
   "parserOptions": {
     "ecmaVersion": 6,
-    "ecmaFeatures": {
-      "jsx": true
-    },
     "impliedStrict": true,
     "sourceType": "module"
   },
@@ -11,16 +8,9 @@
     "node": true,
     "es6": true
   },
-  "plugins": [
-    "react"
-  ],
-  "settings": {
-    "react": {
-      "pragma": "React",
-      "version": "15.0"
-    }
-  },
-  "extends": ["airbnb", "plugin:react/recommended"],
+  "plugins": [],
+  "settings": { },
+  "extends": ["airbnb-base"],
   "rules": {
     "comma-dangle": ["error", "never"],
     "no-underscore-dangle": 0
